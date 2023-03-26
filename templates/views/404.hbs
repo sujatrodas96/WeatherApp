@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+{{> header}}
+</head>
+<body>
+{{> navbar}}
+<div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 max-auto">
+        <div class="row">
+
+            <div class="col-md-12 col-12 main_header_right align-items-center">
+                <figure>
+                    <img src="images/404.jpg" alt="" height="400" width="400">
+                </figure>
+                <p>Welcome to <span class="text_clr">Webexpress</span> App</p>
+                <h2>{{errormsg}}</h2>
+                <a href="/"><button>Go Back</button></a>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+     {{>footer}}
+  </body>
+</html>
