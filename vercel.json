@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "index.hbs"
+      }
+    ],
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "command": "npm run build"
+    }
+  }
+  
